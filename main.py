@@ -3,7 +3,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from models import Question
 
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = ''
 MODEL = 'gpt-3.5-turbo'
 openai.api_key = OPENAI_API_KEY
 
